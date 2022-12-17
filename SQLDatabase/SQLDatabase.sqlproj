@@ -61,6 +61,8 @@
     <Folder Include="Publish" />
     <Folder Include="PostDeployScripts" />
     <Folder Include="dbo\Views" />
+    <Folder Include="dbo\Stored Procedures" />
+    <Folder Include="dbo\Triggers" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Person.sql" />
@@ -68,6 +70,8 @@
     <Build Include="dbo\Tables\Employee.sql" />
     <Build Include="dbo\Tables\Company.sql" />
     <Build Include="dbo\Views\EmployeeInfo.sql" />
+    <Build Include="dbo\Stored Procedures\spInsertEmployee.sql" />
+    <Build Include="dbo\Triggers\InsertCompany.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Publish\LocalDemoDB.publish.xml" />
